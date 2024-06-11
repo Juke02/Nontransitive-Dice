@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.com/Juke02/nontransitivedice.github.io/static/css/main.2ef04609.css",
+    "main.js": "/github.com/Juke02/nontransitivedice.github.io/static/js/main.76058652.js",
+    "static/js/453.e28b9cce.chunk.js": "/github.com/Juke02/nontransitivedice.github.io/static/js/453.e28b9cce.chunk.js",
+    "index.html": "/github.com/Juke02/nontransitivedice.github.io/index.html",
+    "main.2ef04609.css.map": "/github.com/Juke02/nontransitivedice.github.io/static/css/main.2ef04609.css.map",
+    "main.76058652.js.map": "/github.com/Juke02/nontransitivedice.github.io/static/js/main.76058652.js.map",
+    "453.e28b9cce.chunk.js.map": "/github.com/Juke02/nontransitivedice.github.io/static/js/453.e28b9cce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ef04609.css",
+    "static/js/main.76058652.js"
+  ]
+}
