@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import EditableBox from './EditableBox';
+import Grid from './Grid';
 
 function App() {
+  const [rowData, setRowData] = useState(Array(10).fill(''));
+  const [colData, setColData] = useState(Array(10).fill(''));
+
+  const handleRowSubmit = (data) => {
+    setRowData(data);
+  };
+
+  const handleColSubmit = (data) => {
+    setColData(data);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Nontransitive Dice Calculator</h1>
+      <EditableBox onSubmitRow={handleRowSubmit} onSubmitCol={handleColSubmit} />
+      <Grid rowLabels={rowData} colLabels={colData} />
     </div>
   );
 }
