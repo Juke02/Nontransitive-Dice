@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Nontransitive-Dice/static/css/main.2ef04609.css",
-    "main.js": "/Nontransitive-Dice/static/js/main.2aaad026.js",
+    "main.js": "/Nontransitive-Dice/static/js/main.eefcafd2.js",
     "static/js/453.e28b9cce.chunk.js": "/Nontransitive-Dice/static/js/453.e28b9cce.chunk.js",
     "index.html": "/Nontransitive-Dice/index.html",
     "main.2ef04609.css.map": "/Nontransitive-Dice/static/css/main.2ef04609.css.map",
-    "main.2aaad026.js.map": "/Nontransitive-Dice/static/js/main.2aaad026.js.map",
+    "main.eefcafd2.js.map": "/Nontransitive-Dice/static/js/main.eefcafd2.js.map",
     "453.e28b9cce.chunk.js.map": "/Nontransitive-Dice/static/js/453.e28b9cce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ef04609.css",
-    "static/js/main.2aaad026.js"
+    "static/js/main.eefcafd2.js"
   ]
 }
