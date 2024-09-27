@@ -10,10 +10,13 @@ const EditableBox = ({ onSubmitRow, onSubmitCol }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    // Use regex to match numbers, including multi-digit numbers
+    const parsedData = inputValue.match(/\d+/g)?.map(item => item.trim()) || [];
+    
     if (inputType === 'row') {
-      onSubmitRow(inputValue.split(',').map(item => item.trim()));
+      onSubmitRow(parsedData);
     } else {
-      onSubmitCol(inputValue.split(',').map(item => item.trim()));
+      onSubmitCol(parsedData);
     }
     setInputValue('');
   };
